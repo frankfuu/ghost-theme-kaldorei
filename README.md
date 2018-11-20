@@ -34,13 +34,15 @@ A Simple And Elegant Ghost Theme Derive From Default Theme Casper
 
 - [ ] 全局搜索
 
-- [ ] 延迟加载
-
-- [ ] 推荐文章置顶
-
 ## How to use
 
-### 统计
+### 切换语言
+
+Ghost2.x版本中支持了语言的切换，Kaldorei 同时也支持了中/英文的切换，默认为英文 `en`。
+
+> 方法：ghost后台 > `General` > `Publication Language` 改为 `zh` 即可
+
+### 标签统计
 Kaldorei使用了ghost的api来做统计，所以需要开启ghost的实验室中的`Public API`功能。
 
 > 方法：ghost后台 > `labs` > `Enable Beta Features` > `勾选 Public API`
@@ -60,13 +62,25 @@ Kaldorei支持Disqus讨论插件，只需在后台`代码注入`处添加一段�
 ```
 
 ### 开启归档功能
-Kaldorei提供了简单的归档功能，使用ghost的api来生成归档，预览[博客归档](http://xlbd.me/archives-post)。
+Kaldorei提供了简单的归档功能，使用ghost的api来生成归档，预览[博客归档](http://xlbd.me/archives)。
 
 > 方法：ghost后台:
-> * New Post > 标题输入`Archives`，这时文章的地址默认为`archives-post`;
-> * Post Settings > 勾选`Turn this post into a static page`，然后Publish;
-> * Navigation > 创建一个`归档`导航，地址为：http://your_blog_url/`archives-post`;
+> * New Post > 标题输入`Archives`，这时文章的地址默认为`archives`;
+> * Post Settings > 勾选`Turn this post into a page`，然后Publish;
+> * Navigation > 创建一个`归档`导航，地址为：http://your_blog_url/`archives`;
 > * 去博客首页看看你的归档吧，Have fun.
+
+### 配置喜欢的代码主题风格
+Kaldorei使用[highlight.js](https://github.com/isagalaev/highlight.js)实现代码高亮，默认使用的主题风格为 `monokai-sublime`
+
+> 方法：ghost后台 > `Code Injection` > `Blog Header`
+
+```html
+<!-- use solarized-light style -->
+<link rel="stylesheet" type="text/css" href="/assets/plugins/highlight-latest/styles/solarized-light.css" />
+```
+
+[完整主题列表](https://highlightjs.org/static/demo/)
 
 ## About ghost helpers
 
