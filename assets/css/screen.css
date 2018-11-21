@@ -2368,17 +2368,17 @@ body.nav-opened .site-wrapper {
 }
 @media (min-width:1088px) {
     .container {
-        width: 960px !important;
+        width: 1000px !important;
     }
 }
 @media (min-width:1280px) {
     .container {
-        width: 960px !important;
+        width: 1200px !important;
     }
 }
 @media (min-width:1472px) {
     .container {
-        width: 1152px !important;
+        width: 1400px !important;
     }
 }
 
