@@ -1412,7 +1412,7 @@ body.nav-opened .site-wrapper {
     min-width: 320px;
     padding: 0px !important;
     margin: 0px auto;
-    max-width: 1152px;
+    max-width: 2000px;
     text-align: left;
     position: relative;
     margin-left: auto;
@@ -2381,6 +2381,18 @@ body.nav-opened .site-wrapper {
         width: 1400px !important;
     }
 }
+@media (min-width:1664px) {
+    .container {
+        width: 1600px !important;
+    }
+}
+@media (min-width:1856px) {
+    .container {
+        width: 1800px !important;
+    }
+}
+
+
 
 /* ==========================================================================
    20. Animations
