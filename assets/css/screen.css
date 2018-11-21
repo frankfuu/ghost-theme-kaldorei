@@ -2378,17 +2378,22 @@ body.nav-opened .site-wrapper {
 }
 @media (min-width:1472px) {
     .container {
-        width: 1400px !important;
+        width: 1392px !important;
     }
 }
 @media (min-width:1664px) {
     .container {
-        width: 1600px !important;
+        width: 1584px !important;
     }
 }
 @media (min-width:1856px) {
     .container {
-        width: 1800px !important;
+        width: 1776px !important;
+    }
+}
+@media (min-width:2000px) {
+    .container {
+        width: 1920px !important;
     }
 }
 
