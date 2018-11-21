@@ -660,8 +660,8 @@ body.nav-opened .site-wrapper {
 
 .post {
     position: relative;
-    max-width: 750px;
-    margin: 2em;
+    /*max-width: 750px;*/
+    margin: 1.2em;
     border-bottom: #EBF2F6 1px solid;
     word-wrap: break-word;
 }
