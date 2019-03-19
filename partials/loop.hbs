@@ -1,4 +1,4 @@
-<div id="content" class="content col-sm-12 col-md-8 col-lg-8">
+<div id="content" class="content col-sm-12 col-md-9 col-lg-9">
     {{#is "tag"}}
     {{! 标签信息 }}
     <section class="tag-meta {{#if @tag.image}}" style="background-image: url({{@tag.image}}){{else}}no-cover{{/if}}">
@@ -21,7 +21,7 @@
             <h1 class="post-title"><a href="{{url}}">{{{title}}}</a></h1>
         </header>
         <section class="post-excerpt">
-            <p>{{excerpt words="20"}} ... </p>
+            <p>{{excerpt words="80"}} ... </p>
         </section>
         <footer class="post-meta">
             <span class="post-meta-item post-meta-author">
