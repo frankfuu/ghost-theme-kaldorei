@@ -2386,15 +2386,9 @@ body.nav-opened .site-wrapper {
         width: 1584px !important;
     }
 }
-@media (min-width:1856px) {
-    .container {
-        width: 1776px !important;
-    }
-}
-@media (min-width:2000px) {
-    .container {
-        width: 1920px !important;
-    }
+@media (min-width: 1856px)
+   .container {
+      width: 1670px !important;
 }
 
 
